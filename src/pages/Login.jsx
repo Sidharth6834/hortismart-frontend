@@ -62,15 +62,15 @@ const Login = () => {
             </h2>
             
             <div className="grid grid-cols-2 gap-6 mt-12">
-              <div className="glass-card bg-[#059669]/90 border-[#10b981]/30 p-6 rounded-[2rem] hover:bg-[#047857] hover:scale-105 transition-all duration-300 group cursor-default shadow-2xl shadow-black/20">
+              <div className="bg-[#059669] border-[#10b981]/30 p-6 rounded-[2rem] hover:scale-105 transition-all duration-300 group cursor-default shadow-2xl shadow-black/20">
                 <div className="w-12 h-12 bg-white/20 rounded-2xl flex items-center justify-center mb-4 border border-white/30 group-hover:bg-white group-hover:text-[#059669] transition-colors">
                   <Zap className="w-6 h-6 text-white transition-colors" />
                 </div>
                 <h4 className="font-black text-xl mb-1 text-white">Real-time Data</h4>
                 <p className="text-sm text-white font-bold opacity-90">Get instant market updates and trends.</p>
               </div>
-              <div className="glass-card bg-[#0d9488]/90 border-[#14b8a6]/30 p-6 rounded-[2rem] hover:bg-[#0f766e] hover:scale-105 transition-all duration-300 group cursor-default shadow-2xl shadow-black/20">
-                <div className="w-12 h-12 bg-white/20 rounded-2xl flex items-center justify-center mb-4 border border-white/30 group-hover:bg-white group-hover:text-[#0d9488] transition-colors">
+              <div className="bg-[#059669] border-[#10b981]/30 p-6 rounded-[2rem] hover:scale-105 transition-all duration-300 group cursor-default shadow-2xl shadow-black/20">
+                <div className="w-12 h-12 bg-white/20 rounded-2xl flex items-center justify-center mb-4 border border-white/30 group-hover:bg-white group-hover:text-[#059669] transition-colors">
                   <ShieldCheck className="w-6 h-6 text-white transition-colors" />
                 </div>
                 <h4 className="font-black text-xl mb-1 text-white">Secure Insights</h4>
