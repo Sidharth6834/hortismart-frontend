@@ -62,19 +62,19 @@ const Login = () => {
             </h2>
             
             <div className="grid grid-cols-2 gap-6 mt-12">
-              <div className="glass-card bg-primary-900/40 backdrop-blur-2xl border-primary-400/30 p-6 rounded-[2rem] hover:bg-primary-800/50 hover:scale-105 transition-all duration-300 group cursor-default shadow-2xl shadow-primary-950/50">
-                <div className="w-12 h-12 bg-primary-400/30 rounded-2xl flex items-center justify-center mb-4 border border-primary-300/40 group-hover:bg-primary-400 group-hover:text-primary-950 transition-colors">
-                  <Zap className="w-6 h-6 text-primary-200 group-hover:text-primary-950 transition-colors" />
+              <div className="glass-card bg-[#059669]/90 border-[#10b981]/30 p-6 rounded-[2rem] hover:bg-[#047857] hover:scale-105 transition-all duration-300 group cursor-default shadow-2xl shadow-black/20">
+                <div className="w-12 h-12 bg-white/20 rounded-2xl flex items-center justify-center mb-4 border border-white/30 group-hover:bg-white group-hover:text-[#059669] transition-colors">
+                  <Zap className="w-6 h-6 text-white transition-colors" />
                 </div>
                 <h4 className="font-black text-xl mb-1 text-white">Real-time Data</h4>
-                <p className="text-sm text-primary-100 font-bold opacity-90">Get instant market updates and trends.</p>
+                <p className="text-sm text-white font-bold opacity-90">Get instant market updates and trends.</p>
               </div>
-              <div className="glass-card bg-emerald-900/40 backdrop-blur-2xl border-emerald-400/30 p-6 rounded-[2rem] hover:bg-emerald-800/50 hover:scale-105 transition-all duration-300 group cursor-default shadow-2xl shadow-emerald-950/50">
-                <div className="w-12 h-12 bg-emerald-400/30 rounded-2xl flex items-center justify-center mb-4 border border-emerald-300/40 group-hover:bg-emerald-400 group-hover:text-emerald-950 transition-colors">
-                  <ShieldCheck className="w-6 h-6 text-emerald-200 group-hover:text-emerald-950 transition-colors" />
+              <div className="glass-card bg-[#0d9488]/90 border-[#14b8a6]/30 p-6 rounded-[2rem] hover:bg-[#0f766e] hover:scale-105 transition-all duration-300 group cursor-default shadow-2xl shadow-black/20">
+                <div className="w-12 h-12 bg-white/20 rounded-2xl flex items-center justify-center mb-4 border border-white/30 group-hover:bg-white group-hover:text-[#0d9488] transition-colors">
+                  <ShieldCheck className="w-6 h-6 text-white transition-colors" />
                 </div>
                 <h4 className="font-black text-xl mb-1 text-white">Secure Insights</h4>
-                <p className="text-sm text-emerald-100 font-bold opacity-90">Advanced encryption for your business data.</p>
+                <p className="text-sm text-white font-bold opacity-90">Advanced encryption for your business data.</p>
               </div>
             </div>
           </motion.div>
